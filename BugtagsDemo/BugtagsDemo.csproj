@@ -9,6 +9,8 @@
     <RootNamespace>BugtagsDemo</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>BugtagsDemo</AssemblyName>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -79,6 +81,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="BugtagsBinding.iOS">
+      <HintPath>Dll\BugtagsBinding.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
@@ -96,12 +101,6 @@
     <Compile Include="RootViewController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\BugtagsBinding.iOS\BugtagsBinding.iOS.csproj">
-      <Project>{9E29EC3D-3051-43EA-8F8F-7810EECC4015}</Project>
-      <Name>BugtagsBinding.iOS</Name>
-    </ProjectReference>
-  </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\zh.lproj\" />
   </ItemGroup>

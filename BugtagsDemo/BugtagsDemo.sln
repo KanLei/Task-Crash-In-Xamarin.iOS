@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugtagsDemo", "BugtagsDemo.csproj", "{C322DB5D-7C28-4F9B-B774-7966225ADF55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C322DB5D-7C28-4F9B-B774-7966225ADF55}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C322DB5D-7C28-4F9B-B774-7966225ADF55}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C322DB5D-7C28-4F9B-B774-7966225ADF55}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C322DB5D-7C28-4F9B-B774-7966225ADF55}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C322DB5D-7C28-4F9B-B774-7966225ADF55}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C322DB5D-7C28-4F9B-B774-7966225ADF55}.Release|iPhone.Build.0 = Release|iPhone
+		{C322DB5D-7C28-4F9B-B774-7966225ADF55}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C322DB5D-7C28-4F9B-B774-7966225ADF55}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

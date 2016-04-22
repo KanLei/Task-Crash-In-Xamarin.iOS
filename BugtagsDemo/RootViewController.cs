@@ -1,6 +1,5 @@
 ﻿using System;
 using UIKit;
-using BugtagsBinding.iOS;
 using System.Threading.Tasks;
 
 namespace BugtagsDemo

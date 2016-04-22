@@ -1,5 +1,6 @@
 ﻿using Foundation;
 using UIKit;
+//using BugtagsBinding.iOS;
 using BugtagsBinding.iOS;
 
 namespace BugtagsDemo
